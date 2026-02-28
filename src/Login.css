@@ -1,0 +1,84 @@
+/* /* /* /* .forget{
+   font-size:17px;
+   color: black;
+   text-decoration: none;
+}
+
+.forget:hover{
+   text-decoration: underline;
+   color: gold;
+   cursor: alias;
+   font-size: x-large;
+}
+
+button:hover{
+   color: green;
+   font-size: 25px;
+   width: 80px;
+   border: none;
+   background-color: rgb(214, 127, 215);
+   border-radius: 5px;
+}
+
+.form-control{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.new{
+   border: 5px solid rgb(27, 23, 23);
+   width: 350px;
+   height:60vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+}
+
+input{
+   height: 30px;
+   width: 250px;
+   border-radius: 10px;
+} */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c04ead;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: rgb(188, 202, 206);
+  box-shadow: 0 4px 8px rgba(217, 117, 221, 0.1);
+}
+
+th, td {
+  border: 1px solid #2c2424;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #642d65;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #9de4db;
+}
+
+tr:hover {
+  background-color: #a2bfde;
+}  
